@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXHIBITION BOOKING FORM</title>
+  <style>
+  body {
+  font-family: Arial;
+  font-size: 16px;
+  padding: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin: 0 -16px;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 100%;
+}
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: rgb(222, 220, 220);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(222, 220, 220);
+  max-width:500px;
+  margin:auto;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=text], textarea, select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  background-color: limegreen;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  font-size: 17px;
+}
+</style>
+<title>123</title>
+</head>
+<body>
+  <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <center><h2>Exhibition Booking Form</h2></center>
+      <form action="">
+        <div class="row">
+          <div class="col-50">
+            <input type="text" id="name" name="name" required placeholder="Participant's name">  
+          </div>
+          <div class="col-50">
+            <select name="education">
+              <option value="College Student">College student</option>
+              <option value="Engineer">Engineer</option>
+              <option value="Designer">Designer</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-50">
+              <label>Your Project Type (Science)</label><br><br>
+                <input type="checkbox" name="technicalmachinery" value="Yes">Technical Machinery<br><br>
+                <input type="checkbox" name="technical_computers" value="Yes">Technical Computers<br><br>
+                <input type="checkbox" name="technical_research" value="Yes">Technical Research<br><br>
+                <input type="checkbox" name="electronics" value="Yes">Electronics<br><br>
+                <input type="checkbox" name="other_theme" value="Yes">Other science theme<br><br>
+            </div>
+            <div class="col-50">
+                <label>Your Project Type (Art)</label><br><br>
+                <input type="checkbox" name="History" value="Yes">History<br><br>
+                <input type="checkbox" name="political_science" value="Yes">Political Science<br><br>
+                <input type="checkbox" name="design_art" value="Yes">Design Art<br><br>
+                <input type="checkbox" name="paintings" value="Yes">Paintings<br><br>
+                <input type="checkbox" name="other_theme" value="Yes">Other Art Theme<br><br>
+           </div>
+        </div>
+   <h3>Contact Information</h3>
+          <div class="row">
+            <div class="col-50">
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+            <div class="col-50">
+               <input type="number" name="phone" required placeholder="Phone">
+           </div>
+           </div>
+            <div class="row">
+              <div class="col-50">
+                <textarea name="address" id="address" placeholder="Street Address" rows="3" required></textarea>
+              </div>     
+         </div>
+         <div class="row">
+             <div class="col-50">
+                 <input type="text" name="city" required placeholder="City">
+             </div>
+             <div class="col-50">
+                <input type="text" name="state" required placeholder="State">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-50">
+                <input type="number" name="zip_code" required placeholder="Zip Code">
+            </div>
+            <div class="col-50">
+               <input type="text" name="country" required placeholder="Country">
+           </div>
+        </div>
+        <input type="submit" value="Book Now">
+       </div>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

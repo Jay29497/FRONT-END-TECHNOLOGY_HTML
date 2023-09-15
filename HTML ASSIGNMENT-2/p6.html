@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-1</title>
+    <style>
+        * {
+            font-family: arial;
+        }
+        table, th, td{
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table width="75%">
+            <caption><b><h2>New Employee Details Form</h2></b></caption>
+            <tr>
+                <th align="left"><h3>Personal Details</h3></th>
+            </tr>
+            <tr>
+                <td>Your Name</td>
+                <td>
+                    *<select>
+                        <option value=""></option>
+                        <option value="">Ms.</option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                    </select> <br>
+                    Title
+                </td>
+                <td>
+                    *<input type="text" name="firstName" id="firstName" required> <br>
+                    First Name
+                </td>
+                <td>
+                    <input type="text" name="middleName" id="middleName" required> <br>
+                    Middle Name
+                </td>
+                <td>
+                    *<input type="text" name="surName" id="surName" required> <br>
+                    Surname
+                </td>
+            </tr>
+            <tr>
+                <td>*Gender</td>
+                <td>
+                    <input type="radio" value="Male" name="Gender"> Male
+                </td>
+                <td>
+                    <input type="radio" value="Female" name="Gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>*Birth Date</td>
+                <td>
+                    <input type="date" name="birthDate" id="birthDate" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    *<input type="address" name="address" id="address" required><br>Street Address
+                </td>
+                <td>
+                    <input type="address" name="address" id="address" required><br>Street Address Line 2
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    *<input type="text" name="" id="" required><br>Suburb
+                </td>
+                <td>
+                    <input type="text" name="" id="" required><br>State
+                </td>
+                <td>
+                    *<input type="number" name="" id="" required><br>Passcode
+                </td>
+            </tr>
+            <tr>
+                <td>Contact</td>
+                <td>
+                    *Home Phone <br> <input type="number" required>
+                </td>
+                <td>
+                    *Mobile Phone <br> <input type="number" required>
+                </td>
+                <td>
+                    *Email Address <br> <input type="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>*Are you an Australian?</td>
+                <td>
+                    <input type="radio"> Yes
+                </td>
+                <td>
+                    <input type="radio"> No
+                </td>
+            </tr>
+            <tr>
+                <td>*Do you have a working visa?</td>
+                <td>
+                    <input type="radio"> Yes
+                </td>
+                <td>
+                    <input type="radio"> No
+                </td>
+            </tr>
+            <tr>
+                <th align="left"><h3>Employment Details</h3></th>
+            </tr>
+            <tr>
+                <td>*Job Title</td>
+                <td colspan="3">
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>*Commencement Date</td>
+                <td colspan="3">
+                    <input type="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>*File Tax Number</td>
+                <td colspan="3">
+                    <input type="number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>*Employment Status</td>
+                <td>
+                    <input type="radio"> Full Time
+                </td>
+                <td>
+                    <input type="radio"> Part Time
+                </td>
+                <td>
+                    <input type="radio"> Temporary
+                </td>
+                <td>
+                    <input type="radio"> Casual
+                </td>
+            </tr>
+            <tr>
+                <th align="left"><h3>Emergency Contact Details</h3></th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    *<select>
+                        <option value=""></option>
+                        <option value="">Ms.</option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                    </select> <br>
+                    Title
+                </td>
+                <td>
+                    *<input type="text" name="firstName" id="firstName" required> <br>
+                    First Name
+                </td>
+                <td>
+                    <input type="text" name="middleName" id="middleName" required> <br>
+                    Middle Name
+                </td>
+                <td>
+                    *<input type="text" name="surName" id="surName" required> <br>
+                    Surname
+                </td>
+            </tr>
+            <tr>
+                <td>*Relationship</td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Contact</td>
+                <td>
+                    *Home Phone <br> <input type="number" required>
+                </td>
+                <td>
+                    *Mobile Phone <br> <input type="number" required>
+                </td>
+                <td>
+                    *Email Address <br> <input type="email" required>
+                </td>
+            </tr>
+            <tr>
+                <th align="left"><h3>Banking Details</h3></th>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td>*Bank Name <br>
+                    <input type="text">
+                </td>
+                <td>*Bank Branch <br>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Account</td>
+                <td>*Account Name <br>
+                    <input type="text">
+                </td>
+                <td>*Account number <br>
+                    <input type="number">
+                </td>
+                <td>*BSB Number <br>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>*Employee Signature</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" placeholder="Print your name here">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="number" placeholder="Enter date here">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">SUBMIT</button>
+                </td>
+            </tr>   
+        </table>
+        <br>
+        *Mandatory fields
+        <p>
+            <center>
+                <u style="border-bottom: 2px dotted;text-decoration: none;">
+                    Create your own Borneosoft® Online Forms,<br>choose from our Form Templates or modify this form
+                </u>
+            </center>
+        </p>
+         <hr>
+         <br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+    table, th, td {
+                border-collapse: collapse;
+                padding: 7px;
+                font-size: 25px;
+                width: 900px;
+                text-align: left;
+                font-weight: lighter;
+                }
+    input[type="text"], [type="number"], [type="password"], [type="email"], [type="date"] {
+        width: 80%; 
+        height: 40px;
+        }
+    button[type="submit"], [type="reset"] {
+        width: 30%; 
+        height: 40px;
+        font-size: 20px;
+        margin-right: 60px;
+        }
+    </style>
+</head>
+<body bgcolor="#E6E6E3">
+    <form>
+        <table align="center">
+        <caption><h2><b><u>Registration form</u></b></h2></caption>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <th>Nick Name</th>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td><input type="email"/></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password"/></td>
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td><input type="date"/></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" name="" value=""/>Male<input type="radio" name="" value=""/>Female<input type="radio" name="" value=""/>Others</td>   
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea rows="6" cols="61"></textarea></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </td>
+        </tr>
+        </table>
+    </form>    
+</body>
+</html>
